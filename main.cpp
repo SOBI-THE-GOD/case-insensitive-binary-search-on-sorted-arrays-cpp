@@ -35,6 +35,7 @@ int main() {
     int arrayLength = sizeof(names) / sizeof(names[0]);
 
     sort(names, names + arrayLength);
+    // sort(names.begin(), names.end());
 
     cout << "Enter a name to search for: ";
     cin >> searchName;
